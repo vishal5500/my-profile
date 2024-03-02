@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        header{
+            background-color: rgb(196, 227, 228);
+            padding: 20px;
+            border: 2px;
+            align-self: auto;
+        }
+        #header-info,#gurav{
+            margin-right: 20px;
+            margin-left: 05px;
+        }
+        #resume{
+            margin-left: 10px;
+        }
+        li{
+            margin: 20px;
+        }
+        table, tr, th, td {
+        border: 2px solid rgb(240, 8, 8);
+        border-collapse: collapse;
+        }
+        td,th{
+            padding: 10px;
+            text-align: center;
+        }
+        #abc{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+     <!-- Header section -->
+     <header>
+        <i class="fa fa-user" aria-hidden="true"></i>
+        <span id="header-info">Vishal Gurav</span> 
+        <i class="fa fa-mobile" aria-hidden="true"></i>
+        <span id="header-info">8888 4310 11</span>
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+        <span id="header-info"> vishalgurav5500@gmail.com</span> 
+        <i class="fa fa-download" aria-hidden="true"></i>
+        <a href="assets/resume.pdf" download id="resume">Resume</a>
+
+        </p>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav >
+        <a id="gurav" href="#home">HOME</a> 
+        <a id="gurav" href="#techStack">TECH STACK</a> 
+        <a id="gurav" href="#project">PROJECTS</a> 
+        <a id="gurav" href="#education">EDUCATION</a> 
+        <a id="gurav" href="personalDtails.html" target="_blank">PERSIONAL DEATAILS</a> 
+        <a id="gurav" href="others.html">OTHERS</a>
+     </nav>
+
+    <!-- Main Section -->
+    <section>
+        <!-- HOME Section -->
+        <section id="home">
+            <h2 style="color: blue;font-style: italic;">Professional Summary</h2>
+            <ul type="square">
+                <li style="color: red;">Having 1 year of experience in developing Single page Web Application using Angular 8,HTML5,CSS3,Bootstrap 5,JavaScript,TypeScript</li>
+                <li>Experience on working with version control system -GIt and GitHub</li>
+                <li>Experience working with JIRA for user stories and bug tracking</li>
+                <li>Strong Debugging & Troubleshooting code experience using Chrome Developer Tool</li>
+                <li>Working exposure in ID's like VS Code and Notepad++</li>
+                <li>Good working experience under Agile methodologies environment </li>
+                <li>Experience using Chrome Developer Tool for debugging and Troubleshooting the code</li>
+                <li>Knowledge of NodeJs</li>
+                <li>Ability to work with people at all level in program</li>
+            </ul>
+        </section>
+        <hr> 
+        <!-- Technology stack section -->
+      <section id="techStack">
+        <h2 class="heading">My Technology stack is</h2>
+        <table id="table">
+          <thead>
+            <tr>
+              <th>Sr.No  </th>
+              <th> Technology stack </th>
+              <th> Rating </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1&/td>
+              <td> HTML </td>
+              <td> 4</td>
+            </tr>
+            <tr>
+              <td> 2 </td>
+              <td> CSS </td>
+              <td> 4 </td>
+            </tr>
+            <tr>
+              <td>3 </td>
+              <td> JavaScript </td>
+              <td> 4 </td>
+            </tr>
+            <tr>
+              <td> 4 </td>
+              <td> Angular</td>
+              <td>3 </td>
+            </tr>
+          </tbody>
+        </table>
+
+      </section>
+      <hr>
+
+       <!-- Project Section -->
+      <section id="project">
+        <h2 class="heading">Projects</h2>
+        <p ><b><span>Name:</span></b><u><b><span  id="abc">Student Management</span></b></u></p>
+        <p><b><u>Environment:</u></b><span id="abc">Angular,React,java,JavaScript,HTML,CSS,Bootstrap,GitHub,Agile and JIRA</span></p>
+        <p><b>Team Size :</b>06 <b style="margin-left: 70px;">Duration:</b><i>2021-1 <sup>st</sup>-july till <u>present</u></i></p>
+         <p><b>Project Description:</b>This project is mainly used for student management in colleges,whrer it helps to manage student record like <br>student registration,student update,and to see all the list of academic activities like score card and attendance.</p>
+         <hr>
+         <h2><b>Role and Responsibilities</b></h2>
+         <ul type="square">
+            <li>Designed and Implemented the user interface using HTML5 and CSS3.</li>
+            <li>Work closely with backend developer for code integration.</li>
+            <li>Identifying and troubleshooting issues in front end codebase.</li>
+            <li>Worked in GIT as a version control.</li>
+            <li>Used JIRA for bug tracking.</li>
+            <li>Implemented project using Agile SCRUM methodology, involved in daily stand up calls,sprint retrospective meeting.</li>
+            <li>Involved in fixing technical issues in production environment.</li>
+         </ul>
+
+      </section>
+      <hr>
+
+      <!-- Education Section -->
+      <section id="education">
+        <h2 class="heading">Education Details</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Qualification </th>
+              <th>School/College </th>
+              <th>  Board/University </th>
+              <th>  Year  </th>
+              <th>  Percentage </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>BE </td>
+              <td> FIT,Pune </td>
+              <td> Pune </td>
+              <td>2017 </td>
+              <td> 62% </td>
+            </tr>
+            <tr>
+              <td>Diploma </td>
+              <td>Dr.J.J.Magdum Poly.Jaysingpur</td>
+              <td>Mumbai</td>
+              <td>2014 </td>
+              <td>68% </td>
+            </tr>
+            <tr>
+              <td>; SCC </td>
+              <td> S.S.H.Kerle  </td>
+              <td>State Board </td>
+              <td> 2011 ;</td>
+              <td> 80% </td>
+            </tr>
+           
+          </tbody>
+        </table>
+        
+      </section>
+      <hr>
+
+    <!-- Footer section -->
+    <footer>
+        <a href="https://www.instagram.com/" target="_blank"> 
+        <i class="fa fa-facebook-official " aria-hidden="true"></i>
+
+      <a id="abc" href="https://www.linkedin.com/" target="_blank">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+     </footer>
+    
+    <section>
+        <!-- Copy write section -->
+        Copyright &copy;2024 Codemind Technology Video Communications, Inc. All rights reserved.
+      </section>
+</body>
+</html>              
+</body>
+</html>
