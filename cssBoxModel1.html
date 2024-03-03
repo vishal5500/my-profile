@@ -16,6 +16,12 @@
             margin-right: 20px;
             margin-left: 05px;
         }
+        #listSummary li{
+        list-style-type: none;
+      }
+      #listSummary li::marker{
+        content: "✍️";
+      }
         #resume{
             margin-left: 10px;
         }
@@ -33,6 +39,9 @@
         #abc{
             padding: 10px;
         }
+        #projectDesc::selection{
+      background-color: rgb(241, 193, 104);
+    }
     </style>
 </head>
 <body>
@@ -65,7 +74,7 @@
         <!-- HOME Section -->
         <section id="home">
             <h2 style="color: blue;font-style: italic;">Professional Summary</h2>
-            <ul type="square">
+            <ul id="listSummary">
                 <li style="color: red;">Having 1 year of experience in developing Single page Web Application using Angular 8,HTML5,CSS3,Bootstrap 5,JavaScript,TypeScript</li>
                 <li>Experience on working with version control system -GIt and GitHub</li>
                 <li>Experience working with JIRA for user stories and bug tracking</li>
@@ -122,10 +131,10 @@
         <p ><b><span>Name:</span></b><u><b><span  id="abc">Student Management</span></b></u></p>
         <p><b><u>Environment:</u></b><span id="abc">Angular,React,java,JavaScript,HTML,CSS,Bootstrap,GitHub,Agile and JIRA</span></p>
         <p><b>Team Size :</b>06 <b style="margin-left: 70px;">Duration:</b><i>2021-1 <sup>st</sup>-july till <u>present</u></i></p>
-         <p><b>Project Description:</b>This project is mainly used for student management in colleges,whrer it helps to manage student record like <br>student registration,student update,and to see all the list of academic activities like score card and attendance.</p>
+         <p id="projectDesc"><b>Project Description:</b>This project is mainly used for student management in colleges,whrer it helps to manage student record like <br>student registration,student update,and to see all the list of academic activities like score card and attendance.</p>
          <hr>
          <h2><b>Role and Responsibilities</b></h2>
-         <ul type="square">
+         <ol >
             <li>Designed and Implemented the user interface using HTML5 and CSS3.</li>
             <li>Work closely with backend developer for code integration.</li>
             <li>Identifying and troubleshooting issues in front end codebase.</li>
@@ -133,7 +142,7 @@
             <li>Used JIRA for bug tracking.</li>
             <li>Implemented project using Agile SCRUM methodology, involved in daily stand up calls,sprint retrospective meeting.</li>
             <li>Involved in fixing technical issues in production environment.</li>
-         </ul>
+         </ol>
 
       </section>
       <hr>

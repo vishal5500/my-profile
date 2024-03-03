@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stuent Registration </title>
+    <style>
+        label{
+            font-family: 'Arial Narrow Bold', sans-serif;
+            width: .5px;
+            font-style: italic;
+        }
+        input[type="text"]{
+            border-radius: 10px;
+            border: 2PX solid orangered;
+            width: 200px;
+            text-transform: uppercase;
+        }
+        input[value="India"]{
+            width: min-content;
+            border: 2px solid yellowgreen;
+        }
+        input{
+            color: rgb(138, 165, 42);
+            border-radius: 10px;
+
+        }
+        input[type="radio"]:hover{
+            color: red;
+        }
+        button[type="submit"]:hover{
+            border-color: brown;
+            text-decoration: underline;
+            padding: 10px;
+            text-decoration-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+    <form action="">
+        <table>
+            <tbody>
+                <tr>
+                    <td><label for="">First Name</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Last Name</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Age</label></td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Password</label></td>
+                    <td> <input type="password"> </td>
+                </tr>
+                <tr>
+                    <td><label for="">Mobile</label></td>
+                    <td> <input type="number" placeholder="Exactly 10 digits"> </td>
+                </tr>
+                <tr>
+                    <td> <label for="">Date of Birth</label> </td>
+                    <td> <input type="date"></td>
+                </tr>
+                <tr>
+                    <td><label>Available in Week</label></td>
+                    <td> <input type="week"> </td>
+                </tr>
+                <tr>
+                    <td><label for="">Country</label></td>
+                    <td> <input type="text" value="India" disabled></td>
+                </tr>
+                <tr>
+                    <td><label for="">Interested in Training</label></td>
+                    <td>
+                        <select>
+                            <option>Angular - Front End</option>
+                            <option> React - Front End</option>
+                            <option> Java - Back End</option>
+                            <option>.Net - Back End</option>
+                            <option> Manual + Automation Testing</option>
+                            <option>Python</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Gender</label></td>
+                    <td> 
+                        <input type="radio" name="gender">  <label for="">Male</label>
+                        <input type="radio" name="gender" id=""><label for="">Female</label>
+                        <input type="radio" name="gender" id=""><label for="">Others</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Known Languages</label></td>
+                    <td>
+                        <input type="checkbox"> <label for="">English</label>
+                        <input type="checkbox"> <label for="">Hindi</label>
+                        <input type="checkbox"> <label for="">Marathi</label>
+                        <input type="checkbox"> <label for="">Sanskrit</label>
+                        <input type="checkbox"> <label for="">Urdu</label>
+                        <input type="checkbox"> <label for="">Tamil</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> <button type="submit">REGISTER</button></td>
+                    <td> <button type="reset">RESET</button> </td>
+                </tr>
+                 
+            </tbody>
+        </table>
+    </form>
+            </tbody>
+        </table>
+
+       
+    </form>
+</body>
+</html>
