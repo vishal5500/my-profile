@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Card</title>
+    <style>
+        #mainSection{
+            width: fit-content;
+            /* text-align: center; */
+            border: 5px solid rgb(224, 116, 116);
+            box-sizing: content-box;
+            /* align-items: center; */
+            margin-bottom: 20px;
+            padding: auto;
+            margin: auto;
+            
+        }
+        #list li::marker{
+                
+                list-style-type: none;
+        }
+        #Info,#card,#para1{
+            display: inline-block;
+            
+        }
+        #img{
+            padding-left: 40px;
+            height: 40px;
+            width: 40px;
+            border-radius: 5px;
+        }
+        #simplecard{
+            width: 30%;
+            align-items: center;
+            box-sizing: content-box;
+            padding: auto;
+            margin: auto;
+            border: 5PX solid cadetblue;
+            padding-left: 20px;
+            margin-top: 30px;
+            background-color: rgb(130, 190, 190)
+            
+        }
+    
+    </style>
+</head>
+<body>
+    <!-- Main Section -->
+    <section id="mainSection">
+        <!-- Photo Section -->
+        <img id="abc" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH0Hu71vBs1kHnJ2ytbK5hvkWqsCd_2v2Jmg&usqp=CAU" alt="">
+        
+        <!-- Info Section -->
+        <section id="Info">
+            <h2>Compare Text Online</h2>
+            <p >
+                <ul id="list">
+                    <li>Compare text online free </li>
+                    <li>Supports large file comparison</li>
+                    <li>Ignore order and name spaces</li>
+                    <li>Side by side different view</li>
+                    <li>Get result in tabular format for <br>quick reference </li>
+                    <li>TEXT different tool</li>
+                    <li>REST API</li>
+                </ul>
+            </p>
+        </section>
+    </section>
+
+    <!-- 2nd card  -->
+    <div id="simplecard">
+    <section id="card">
+        <h2>2 Stock <br> Recommendation <br>Weekly</h2>
+        <div id="para1">
+            <p>Midcap Stocks Gaining </p>
+            <p>Momentun after 30-40% fall</p> 
+             <p> from 52 week high</p>  
+        </div>
+        <img id="img" src="assets/download.png" alt="">
+    </div>   
+      
+ 
+    </section> 
+</body>
+</html>

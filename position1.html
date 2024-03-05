@@ -8,9 +8,23 @@
     <style>
         header{
             background-color: rgb(196, 227, 228);
-            padding: 20px;
-            border: 2px;
-            align-self: auto;
+            padding: 05px;
+            position: fixed;
+            
+        }
+
+        #navBar{
+            padding-top: 60px;
+            position: fixed;
+        }   
+        #home{
+            padding-top: 80px;
+        }
+        #facebook{
+           
+            bottom: 30px;
+            right: 30px;
+            position: fixed;
         }
         #header-info,#gurav{
             margin-right: 20px;
@@ -60,7 +74,7 @@
     </header>
 
     <!-- Navigation Section -->
-    <nav >
+    <nav id="navBar">
         <a id="gurav" href="#home">HOME</a> 
         <a id="gurav" href="#techStack">TECH STACK</a> 
         <a id="gurav" href="#project">PROJECTS</a> 
@@ -100,7 +114,7 @@
           </thead>
           <tbody>
             <tr>
-              <td>1&/td>
+              <td>1</td>
               <td> HTML </td>
               <td> 4</td>
             </tr>
@@ -191,11 +205,11 @@
 
     <!-- Footer section -->
     <footer>
-        <a href="https://www.instagram.com/" target="_blank"> 
-        <i class="fa fa-facebook-official " aria-hidden="true"></i>
+        <a href="https://www.facebook.com/" target="_blank"> 
+        <i id="facebook" class="fa fa-facebook-official fa-5x " aria-hidden="true" height="100px" ></i>
 
       <a id="abc" href="https://www.linkedin.com/" target="_blank">
-        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-instagram " aria-hidden="true" ></i>
      </footer>
     
     <section>
